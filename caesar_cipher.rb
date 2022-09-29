@@ -1,4 +1,3 @@
-require "pry-byebug"
 
 def caesar_cipher(original_string, shift)
     ciphered_string = original_string.split('')
@@ -21,5 +20,3 @@ def caesar_cipher(original_string, shift)
     end
     [ciphered_string.join(''), ciphered_string.bytes.join('')]
 end
-
-p caesar_cipher("What a string!", 25)
